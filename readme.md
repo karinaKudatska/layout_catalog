@@ -1,6 +1,6 @@
 # Frontend practice with catalog page
 1. Replace `<your_account>` with your Github username in the links
-    - npm test
+    - [DEMO LINK](https://karinaKudatska.github.io/layout_catalog/)
     - [TEST REPORT LINK](https://karinaKudatska.github.io/layout_catalog/report/html_report/)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
     - Write styles in `src/styles/main.scss` instead of `src/style.css`.

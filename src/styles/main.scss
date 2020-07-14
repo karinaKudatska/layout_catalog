@@ -71,12 +71,13 @@
     &--button {
       @include centered;
       @include button-text;
+      display: flex;
       justify-content: center;
       background: $theme-color;
       border: 1px solid $theme-color;
       border-radius: 5px;
       height: 40px;
-      transition: background-color 1s;
+      transition: background-color 1s, color 1s;
     }
 
     &--button:hover {

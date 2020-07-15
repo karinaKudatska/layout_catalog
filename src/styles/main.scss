@@ -2,7 +2,8 @@
   &__content {
     margin: 0 auto;
     display: grid;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: $card-gap;
     grid-template-columns: repeat(auto-fill, $card-size);
     max-width: $card-size * 4 + $card-gap * 3 ;
   }

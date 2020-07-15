@@ -1,6 +1,8 @@
 $text-font: "Roboto", sans-serif;
 $theme-color: hsl(193, 100%, 43%);
 $star-size: 15px;
+$card-size: 200px;
+$card-gap: 48px;
 
 @mixin small-text {
   font-size: 11px;
@@ -19,7 +21,7 @@ $star-size: 15px;
 
 @mixin nav-text {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 @mixin button-text {

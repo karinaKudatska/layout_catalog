@@ -1,17 +1,16 @@
 .main {
-  display: flex;
-  justify-content: center;
-
   &__content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 944px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    column-gap: $card-gap;
+    grid-template-columns: repeat(auto-fill, $card-size);
+    max-width: $card-size * 4 + $card-gap * 3 ;
   }
+
   &__card {
     display: flex;
     flex-direction: column;
-    width: 200px;
     padding: 30px 14px 15px;
     border: 1px solid hsl(0, 0%, 95%);
     border-radius: 5px;
